@@ -1,0 +1,127 @@
+*{
+    font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: black ;
+}
+
+.container {
+    width: 100%; /* Optional: You can adjust the width as needed */
+    max-width: 1200px; /* Sets a maximum width for the container */
+  }
+  
+#header_5 .fws_topbar{
+    background-color: #fcbb3b;
+    padding: 20px 0;
+}
+#header_5 .fws_topbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#header_5 .fws_topbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#header_5 .fws_topbar ul.social li a{
+    margin-right: 20px;
+    transition: all .4s;
+}
+#header_5 .fws_topbar ul.social li:last-child a{
+    margin-right: 0px;
+}
+#header_5 .fws_topbar ul.contact_detail li a{
+    margin-left: 20px;
+    transition: all .4s;
+}
+#header_5 .fws_topbar ul.contact_detail li:first-child a{
+    margin-left: 0px;
+}
+#header_5 .fws_topbar ul.social li a:hover, #header_5 .fws_topbar ul.contact_detail li a:hover{
+    opacity: 0.8;
+}
+#header_5 .navbar{
+    background-color: black  !important;
+}
+#header_5 .navbar .navbar-brand{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
+#header_5 ul li.nav-item > a {
+    margin: 0 10px;
+    text-transform: capitalize;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 500;
+    transition: all .4s;
+}
+#header_5 ul li.nav-item .dropdown-menu {
+    border-radius: 0;
+    top: 140%;
+    border-color: #e7e7e7;
+    background-color: #f5f5f5;
+}
+#header_5 ul li.nav-item.signup > a{
+    margin-right: 0px;
+}
+@media (min-width: 768px){
+    #header_5 .navbar-nav hr{
+        border: 0;
+        border-left: 1px solid #8e8e8e;
+        opacity: 1;
+        height: 20px;
+        margin: auto 0;
+   }
+}
+@media (max-width: 767.9px){
+    #header_5 .fws_topbar ul.contact_detail{
+        display: none !important;
+   }
+    #header_5 .icon_part{
+        justify-content: center !important;
+   }
+    #header_5 .fws_topbar{
+        padding: 10px 0;
+   }
+    #header_5 ul li.nav-item .dropdown-menu{
+        background-color: transparent;
+        border: 0;
+   }
+}
+@media (max-width: 576px){
+    #header_5 .navbar .navbar-brand{
+        font-size: 30px;
+   }
+}
+
+.info{
+    list-style: none !important;
+    color: white !important;
+    margin: 0;
+    padding: 0;
+    
+    padding: 20px 0;
+    transition: all 0.5s;
+}
+.containerpro {
+    display: grid !important; /* Use grid display */
+    grid-template-columns: repeat(3, auto) !important; /* 3 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    justify-content: space-around !important; /* Spaces around the grid */
+    gap: 30px !important; /* Gaps between grid items */
+}
+
+.containerpro img{
+    width: 350px !important;
+    height: 300px;
+    border: #fcbb3b solid  10px;
+}
+.card{
+    color: white !important;
+}

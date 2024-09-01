@@ -125,3 +125,17 @@
 .card{
     color: white !important;
 }
+
+.footer *{
+    color: white;
+}
+@media (max-width:576px) {
+    .containerpro {
+        display: grid !important; /* Use grid display */
+        grid-template-columns: repeat(1, auto) !important; /* 3 columns */
+        grid-template-rows: repeat(6, auto); /* 2 rows */
+        justify-content: space-around !important; /* Spaces around the grid */
+        gap: 30px !important; /* Gaps between grid items */
+    }
+    
+}
